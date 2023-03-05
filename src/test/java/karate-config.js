@@ -16,5 +16,8 @@ if (env == 'dev') {
 } else if (env == 'e2e') {
 // customize
 }
+config.faker = Java.type('com.github.javafaker.Faker');
 return config;
+
+
 }
